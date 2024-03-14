@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="armeria.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<armeria>
+    <armas>
+        <arma>
+            <tipo_de_arma>Fusil de asalto</tipo_de_arma>
+            <nombre>AK-47</nombre>
+            <tipo_disparo>Automático</tipo_disparo>
+            <cargador>30</cargador>
+            <precio>600</precio>
+            <municion>7.62x39</municion>
+        </arma>
+        <arma>
+            <tipo_de_arma>Ametralladora</tipo_de_arma>
+            <nombre>M249</nombre>
+            <tipo_disparo>Atomático</tipo_disparo>
+            <cargador>200</cargador>
+            <precio>2000</precio>
+            <municion>5.56x45</municion>
+        </arma>
+        <arma>
+            <tipo_de_arma>Rifle francotirador</tipo_de_arma>
+            <nombre>Barrett M82</nombre>
+            <tipo_disparo>Único</tipo_disparo>
+            <cargador>10</cargador>
+            <precio>1500</precio>
+            <municion>12.7x99</municion>
+        </arma>
+    </armas>
+</armeria>

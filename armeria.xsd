@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="armeria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="armas" maxOccurs="1" minOccurs="1" type="armasType"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="armasType">
+        <xs:sequence>
+            <xs:element name="arma" minOccurs="1" maxOccurs="unbounded" type="armaType"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="armaType">
+        <xs:sequence>
+            <xs:element name="tipo_de_arma">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="nombre">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="tipo_disparo">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="cargador">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="precio">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="municion">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="\d+\.\d+x\d+"></xs:pattern>
+                        <xs:pattern value=".\d+"></xs:pattern>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

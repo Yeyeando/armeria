@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="armeria.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<armeria>
+    <armas>
+        <arma>
+            <tipo_de_arma>Fusil de asalto</tipo_de_arma>
+            <nombre>AN-94</nombre>
+            <tipo_disparo>Ráfaga</tipo_disparo>
+            <cargador>30</cargador>
+            <precio>700</precio>
+            <municion>5.45x39</municion>
+        </arma>
+        <arma>
+            <tipo_de_arma>Revólver</tipo_de_arma>
+            <nombre>M249</nombre>
+            <tipo_disparo>Unico</tipo_disparo>
+            <cargador>6</cargador>
+            <precio>250</precio>
+            <municion>.357</municion>
+        </arma>
+        <arma>
+            <tipo_de_arma>Pistola semiautomática</tipo_de_arma>
+            <nombre>Desert Eagle</nombre>
+            <tipo_disparo>Semiautomático</tipo_disparo>
+            <cargador>7</cargador>
+            <precio>500</precio>
+            <municion>.50</municion>
+        </arma>
+    </armas>
+    
+</armeria>
