@@ -10,6 +10,7 @@
             <cargador>30</cargador>
             <precio>700</precio>
             <municion>5.45x39</municion>
+            <stock>25</stock>
         </arma>
         <arma>
             <tipo_de_arma>Revólver</tipo_de_arma>
@@ -18,6 +19,7 @@
             <cargador>6</cargador>
             <precio>250</precio>
             <municion>.357</municion>
+            <stock>13</stock>
         </arma>
         <arma>
             <tipo_de_arma>Pistola semiautomática</tipo_de_arma>
@@ -26,6 +28,7 @@
             <cargador>7</cargador>
             <precio>500</precio>
             <municion>.50</municion>
+            <stock>10</stock>
         </arma>
     </armas>
     

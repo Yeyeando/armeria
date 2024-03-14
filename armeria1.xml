@@ -9,6 +9,7 @@
             <cargador>30</cargador>
             <precio>600</precio>
             <municion>7.62x39</municion>
+            <stock>21</stock>
         </arma>
         <arma>
             <tipo_de_arma>Ametralladora</tipo_de_arma>
@@ -17,6 +18,7 @@
             <cargador>200</cargador>
             <precio>2000</precio>
             <municion>5.56x45</municion>
+            <stock>3</stock>
         </arma>
         <arma>
             <tipo_de_arma>Rifle francotirador</tipo_de_arma>
@@ -25,6 +27,7 @@
             <cargador>10</cargador>
             <precio>1500</precio>
             <municion>12.7x99</municion>
+            <stock>5</stock>
         </arma>
     </armas>
 </armeria>
