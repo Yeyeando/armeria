@@ -7,3 +7,7 @@ The information will be collected in an xml. Then this list will be displayed in
 # Validated with xsd
 ![alt text](https://github.com/Yeyeando/armeria/blob/main/captura1.png)
 ![alt text](https://github.com/Yeyeando/armeria/blob/main/captura2.png)
+
+## Acknowledgments
+
+* [https://www.dashingd3js.com/table-of-contents](https://www.w3schools.com/xml/xml_schema.asp)https://www.w3schools.com/xml/xml_schema.asp.
